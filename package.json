@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-logtodevice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Output console.log to device native logs",
   "repository": {
     "type": "git",
