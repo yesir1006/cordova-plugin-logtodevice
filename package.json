@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-logtodevice",
+  "version": "0.0.1",
+  "description": "Output console.log to device native logs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisisvitto/cordova-plugin-logtodevice"
+  },
+  "cordova": {
+    "id": "cordova-plugin-logtodevice",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "console",
+    "log"
+  ],
+  "author": "thisisvitto",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  }
+}
