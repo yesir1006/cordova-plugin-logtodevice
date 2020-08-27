@@ -23,8 +23,8 @@ public boolean execute(String action, JSONArray args, CallbackContext callbackCo
 
 private void log(String message, CallbackContext callbackContext) {
     if (message != null && message.length() > 0) {
-        Log.d (message);
-        callbackContext.success(true);
+        Log.d ("LogToDevice",message);
+        callbackContext.success("true");
     } else {
         callbackContext.error("Expected one non-empty string argument.");
     }
